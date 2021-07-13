@@ -99,7 +99,7 @@ use serde::ser::Serialize;
 pub use self::index::Index;
 pub use self::ser::Serializer;
 pub use crate::map::Map;
-pub use crate::number::Number;
+pub use crate::number::{Number, N as NumberType};
 
 #[cfg(feature = "raw_value")]
 pub use crate::raw::{to_raw_value, RawValue};
